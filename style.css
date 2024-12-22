@@ -177,6 +177,18 @@ a i {
     }
 }
 
+@media (max-width: 390px) {
+    .link {
+        width: 85vw;
+        height: 3.5rem;
+    }
+
+    #share-icon {
+        top: 1.25rem;
+        left: 7rem;
+    }
+}
+
 #link-icon1 {
     color: #083170;
     font-size: 1.6rem;
