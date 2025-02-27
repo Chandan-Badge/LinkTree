@@ -39,6 +39,11 @@ a i {
     justify-content: center;
 }
 
+.share-btn {
+    background-color: transparent;
+    border: none;
+}
+
 #share-icon {
     width: 2.4rem;
     height: 2.4rem;
@@ -137,6 +142,11 @@ a i {
     background-color: #FBE433;
 }
 
+.link-icon-btn {
+    background-color: transparent;
+    border: none;
+}
+
 @media (max-width: 700px) {
     .link {
         width: 24rem;
@@ -215,4 +225,13 @@ a i {
     font-size: 0.75rem;
 
     padding-top: 0.9rem;
+}
+
+.foot-link {
+    text-decoration: none;
+    color: black;
+}
+
+.foot-link:hover {
+    text-decoration: underline;
 }
