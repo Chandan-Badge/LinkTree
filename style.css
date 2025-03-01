@@ -26,6 +26,19 @@ a i {
     color: rgb(00, 00, 00, 0.4);
 }
 
+header {
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    padding: 10px 200px;
+
+    margin-top: 50px;
+}
+
 /* 
     Share Bar
 */
@@ -37,11 +50,23 @@ a i {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /* background-color: red; */
+
+    position: absolute;
+    top: 0;
+    right: 0;
 }
+
+/* .share-bar i {
+    background-color: red;
+} */
 
 .share-btn {
     background-color: transparent;
     border: none;
+
+    /* background-color: #FBE433; */
 }
 
 #share-icon {
@@ -56,9 +81,9 @@ a i {
     border: 1px solid rgb(00, 00, 00, 0.07);
     background-color: #f0f0f0;
 
-    position: relative;
+    /* position: relative;
     top: 1.25rem;
-    left: 15.625rem;
+    left: 15.625rem; */
 }
 
 /* 
@@ -148,6 +173,10 @@ a i {
 }
 
 @media (max-width: 700px) {
+    header {
+        padding: 10px 80px;
+    }
+
     .link {
         width: 24rem;
         height: 3.7rem;
