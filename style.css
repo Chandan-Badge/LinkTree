@@ -239,7 +239,7 @@ header {
 
 .link-icon-btn {
     background-color: transparent;
-    /* border: none; */
+    border: none;
     height: 90%;
 }
 
