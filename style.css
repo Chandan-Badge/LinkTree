@@ -162,11 +162,6 @@ header {
     background-color: #FBE433;
 }
 
-.link-icon-btn {
-    background-color: transparent;
-    border: none;
-}
-
 @media (max-width: 700px) {
     header {
         padding: 10px 80px;
@@ -242,11 +237,20 @@ header {
 
 }
 
-#link-icon2 {
-    margin-right: 1.25rem;
+.link-icon-btn {
+    background-color: transparent;
+    /* border: none; */
+    height: 90%;
 }
 
-#link-icon2:hover {
+.link-icon2 {
+    margin-right: 1.25rem;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.link-icon2:hover {
     color: #1e3749;
 }
 
