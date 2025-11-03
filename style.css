@@ -87,7 +87,7 @@ header {
 
 .profile {
     height: 10.625rem;
-    width: 10.625rem;
+    width: 12.625rem;
 
     display: flex;
     flex-direction: column;
@@ -100,9 +100,6 @@ header {
     width: 6.25rem;
 
     border-radius: 50%;
-
-    background-image: url(assets/Chandan_Logo.png);
-    background-size: contain;
 }
 
 #name {
